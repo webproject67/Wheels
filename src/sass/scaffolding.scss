@@ -1,0 +1,102 @@
+@font-face {
+	font-family: "Raleway";
+	font-display: swap;
+	src:
+		url("/fonts/Raleway-Black.woff2") format("woff2"),
+		url("/fonts/Raleway-Black.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Raleway";
+	font-display: swap;
+	src:
+		url("/fonts/Raleway-Bold.woff2") format("woff2"),
+		url("/fonts/Raleway-Bold.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Raleway";
+	font-weight: 700;
+	font-display: swap;
+	src:
+		url("/fonts/Raleway-ExtraBold.woff2") format("woff2"),
+		url("/fonts/Raleway-ExtraBold.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Raleway";
+	font-display: swap;
+	src:
+		url("/fonts/Raleway-LightItalic.woff2") format("woff2"),
+		url("/fonts/Raleway-LightItalic.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Raleway";
+	font-display: swap;
+	src:
+		url("/fonts/Raleway-Regular.woff2") format("woff2"),
+		url("/fonts/Raleway-Regular.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Raleway";
+	font-weight: 600;
+	font-display: swap;
+	src:
+		url("/fonts/Raleway-SemiBold.woff2") format("woff2"),
+		url("/fonts/Raleway-SemiBold.woff") format("woff");
+}
+
+body {
+	max-width: 1920px;
+	min-width: 700px;
+	font-family: "Raleway", Arial, sans-serif;
+	color: #3b3b3b;
+	font-size: 24px;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  white-space: nowrap;
+  border: 0;
+  clip-path: inset(100%);
+}
+
+label, 
+button, 
+input, 
+select { 
+    cursor: pointer; 
+}
+
+a {
+	text-decoration: none;
+}
+
+h1,
+h2, 
+h3 {
+	font-weight: inherit;
+}

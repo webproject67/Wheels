@@ -1,0 +1,75 @@
+.page-header {
+	background: #000000 url("/img/bg-header@1x.jpg") no-repeat center top;
+}
+
+.page-header__wrapper {
+	max-width: 1566px;
+	margin: 0 auto;
+	padding: 81px 15px 74px;
+	text-align: center;
+}
+
+.page-header__list {
+	display: flex;
+	align-items: baseline;
+  justify-content: space-between;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.page-header__logo {
+	color: #ededed;
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+.page-header__btn {
+	padding: 0;
+	color: #ededed;
+	font-size: 27px;
+	font-weight: 600;
+  text-transform: uppercase;
+	background: transparent;
+  border: none;
+}
+
+.page-header__burger {
+	min-width: 19px;
+}
+
+.page-header__welcome {
+	margin: 337px 0 238px;
+	text-align: end;
+}
+
+.page-header__title {
+	margin-bottom: 0;
+	color: #ededed;
+	font-size: 48px;
+	font-weight: 700;
+	text-transform: uppercase;
+  letter-spacing: 6px;
+}
+
+.page-header__text {
+	margin: 10px 0 0;
+	color: #ededed;
+	line-height: 40px;
+	letter-spacing: 3px;
+}
+
+.page-header__author {
+	margin-top: 11px;
+	color: #ededed;
+	font-size: 18px;
+	font-weight: 300;
+	font-style: italic;
+  letter-spacing: 2px;
+}
+
+.page-header__mouse {
+	min-width: 45px;
+}
