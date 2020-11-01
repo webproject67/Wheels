@@ -1,0 +1,53 @@
+.team {
+  padding: 22px 0 0;
+  text-align: center;
+  background-color: #ededed;
+}
+
+.team__title {
+  margin-bottom: 0;
+  color: #1e1e1e;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3.7px;
+}
+
+.team__users {
+  margin-top: 9px;
+  color: #1e1e1e;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 2.3px;
+}
+
+.team__list {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1215px;
+  margin: 0 auto;
+  padding: 36px 15px;
+  list-style: none;
+}
+
+.team__img {
+  min-width: 216px;
+}
+
+.team__name {
+  margin: 24px 0 0;
+  color: #1e1e1e;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.team__profession {
+  margin-top: 12px;
+  color: #1e1e1e;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
