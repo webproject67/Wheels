@@ -1,0 +1,35 @@
+.company {
+  max-width: 1374px;
+  margin: 0 auto;
+  padding: 17px 15px 56px;
+  text-align: center;
+}
+
+.company__title {
+  margin-bottom: 0;
+  color: #1d1d1d;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.company__purpose {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 2.2px;
+}
+
+.company__img {
+  min-width: 88px;
+}
+
+.company__text {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: start;
+  letter-spacing: 1.7px;
+}
+
