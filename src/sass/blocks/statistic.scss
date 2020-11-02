@@ -2,6 +2,11 @@
   padding: 63px 0 76px;
   text-align: center;
   background: url("/img/statistics@1x.jpg") no-repeat center;
+
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+		background-image: url("/img/statistics@2x.jpg");
+		background-size: 1920px auto;
+  }
 }
 
 .statistic__title {

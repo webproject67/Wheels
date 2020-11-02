@@ -1,5 +1,10 @@
 .page-header {
 	background: #000000 url("/img/bg-header@1x.jpg") no-repeat center top;
+
+	@media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+		background-image: url("/img/bg-header@2x.jpg");
+		background-size: 1920px auto;
+  }
 }
 
 .page-header__wrapper {

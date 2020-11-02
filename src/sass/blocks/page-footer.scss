@@ -15,25 +15,16 @@
 .page-footer__wrapper {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   max-width: 1377px;
   margin: 0 auto;
-  padding: 127px 15px 73px;
+  padding: 127px 15px 88px;
 }
 
 .page-footer__links1,
-.page-footer__links2 {
-  min-width: 250px;
-  margin-right: 9%;
-  margin-bottom: 15px;
-  text-align: start;
-}
-
-.page-footer__links2 {
-  margin-right: 11%;
-}
-
+.page-footer__links2,
 .page-footer__links {
-  margin-right: 6.5%;
+  text-align: start;
 }
 
 .page-footer__quick-links {
